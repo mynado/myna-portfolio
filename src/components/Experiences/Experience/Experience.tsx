@@ -10,26 +10,36 @@ export default function Experience(props: ExperienceModel) {
   };
   return (
     <li className={style.experienceContainer}>
-      <div className={style.buttonContainer} onClick={toggleMoreInfo}>
+      <div
+        className={`${style.buttonContainer} ${
+          props.moreInfo && style.expandable
+        }`}
+        onClick={toggleMoreInfo}
+      >
         <div>
           <div className={style.titleContainer}>
-            <div>{props.title}</div>
-            <div>{props.client}</div>
+            <div className={style.title}>{props.title}</div>
+            {props.projectTitle && (
+              <div className={style.projectTitle}>{props.projectTitle}</div>
+            )}
+            <div className={style.client}>{props.client}</div>
           </div>
           <div className="year-container">
             {`${props.startYear} - ${
               props.present ? "present" : props.endYear
             }`}
           </div>
+          {props.degree && <span>{props.degree}</span>}
         </div>
-        <div className={style.iconContainer}>+</div>
+        {props.moreInfo && <div className={style.iconContainer}>+</div>}
       </div>
       {showMoreInfo && (
-        <div className={style.moreInfoDropdown}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
-          tempora dolorem, non iusto deleniti aut dicta itaque quae temporibus
-          unde veritatis harum fugit numquam at deserunt accusamus, maiores ad
-          vitae?
+        <div
+          className={`${style.moreInfoDropdown} ${
+            props.moreInfo && style.expanded
+          }`}
+        >
+          {props.moreInfo?.map((info) => info)}
         </div>
       )}
     </li>
