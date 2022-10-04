@@ -8,7 +8,7 @@ import HomePage from "./pages/HomePage/HomePage";
 function App() {
   return (
     <div className="app-container">
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
