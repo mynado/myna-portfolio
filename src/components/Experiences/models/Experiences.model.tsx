@@ -17,12 +17,6 @@ export const workExperiences: ExperienceModel[] = [
     title: "Front End Developer",
     startYear: 2020,
     present: true,
-    moreInfo: [
-      "Developer of BIMobjects marketplace in Angular",
-      "Scrum",
-      "Tracking events",
-      "",
-    ],
   },
   {
     client: "Mahoyo",
