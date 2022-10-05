@@ -5,14 +5,14 @@ import style from "./Navbar.module.scss";
 export default function Navbar() {
   return (
     <div className={style.navbarContainer}>
-      <ul>
+      {/* <ul>
         <li>
           <Link to="/">HOME</Link>
         </li>
         <li>
           <Link to="/about">ABOUT</Link>
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 }
