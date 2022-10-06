@@ -10,10 +10,8 @@ export default function Experience(props: ExperienceModel) {
   };
   return (
     <li className={style.experienceContainer}>
-      <div
-        className={`${style.buttonContainer} ${
-          props.moreInfo && style.expandable
-        }`}
+      <button
+        className={`${style.button} ${props.moreInfo && style.expandable}`}
         onClick={toggleMoreInfo}
       >
         <div>
@@ -32,7 +30,7 @@ export default function Experience(props: ExperienceModel) {
           {props.degree && <span>{props.degree}</span>}
         </div>
         {props.moreInfo && <div className={style.iconContainer}>+</div>}
-      </div>
+      </button>
       {showMoreInfo && (
         <ul
           className={`${style.moreInfoDropdown} ${
