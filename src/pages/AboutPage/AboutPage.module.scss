@@ -25,3 +25,17 @@ ul {
   margin: 0 auto;
   margin-bottom: 4em;
 }
+
+.skillsSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  flex-wrap: wrap;
+  max-width: 768px;
+  margin: 0 auto;
+
+  .section {
+    margin: 0;
+  }
+}
