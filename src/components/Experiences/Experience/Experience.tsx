@@ -34,13 +34,15 @@ export default function Experience(props: ExperienceModel) {
         {props.moreInfo && <div className={style.iconContainer}>+</div>}
       </div>
       {showMoreInfo && (
-        <div
+        <ul
           className={`${style.moreInfoDropdown} ${
             props.moreInfo && style.expanded
           }`}
         >
-          {props.moreInfo?.map((info) => info)}
-        </div>
+          {props.moreInfo?.map((info) => (
+            <li>{info}</li>
+          ))}
+        </ul>
       )}
     </li>
   );

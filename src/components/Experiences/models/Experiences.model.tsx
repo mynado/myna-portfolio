@@ -17,6 +17,12 @@ export const workExperiences: ExperienceModel[] = [
     title: "Front End Developer",
     startYear: 2020,
     present: true,
+    moreInfo: [
+      "Developer of BIMobject's marketplace using Angular",
+      "SEO optimization",
+      "Server Side Rendering",
+      "Tracking telemetries in Kafka",
+    ],
   },
   {
     client: "Mahoyo",
@@ -43,6 +49,7 @@ export const workExperiences: ExperienceModel[] = [
     startYear: 2018,
     endYear: 2019,
     present: false,
+    moreInfo: ["Webeditor for nok.se", "Episerver CMS"],
   },
   {
     client: "Natur & Kultur",
@@ -50,6 +57,7 @@ export const workExperiences: ExperienceModel[] = [
     startYear: 2018,
     endYear: 2019,
     present: false,
+    moreInfo: ["Cloubi LMS", "Produced e-learning material"],
   },
   {
     client: "Bråvalla Festival",
@@ -58,9 +66,7 @@ export const workExperiences: ExperienceModel[] = [
     startYear: 2016,
     endYear: 2016,
     present: false,
-    moreInfo: [
-      "Mahoyo, RMH and This Is Sweden joined forces during Bråvalla (under the name “Busy creating the future”) to create a borderless utopia. The ambition were to invite visitors to take part in the global movement of the future that unites people who believe in activism through creativity.",
-    ],
+    moreInfo: ["Planning and producing", "Booking artists", "PR", "DJ"],
   },
   {
     client: "Mahoyo",
