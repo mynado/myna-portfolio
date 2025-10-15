@@ -7,8 +7,11 @@ export default function Navbar() {
         <li>
           <Link to="/">HOME</Link>
         </li>
+        {/* <li>
+          <Link to="/projects">PROJECTS</Link>
+        </li> */}
         <li>
-          <Link to="/about">ABOUT</Link>
+          <Link to="/about">ABOUT ME</Link>
         </li>
       </ul>
     </div>
