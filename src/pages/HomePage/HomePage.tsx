@@ -1,6 +1,6 @@
 export default function HomePage() {
   return (
-    <div className="page-container">
+    <div className="max-w-[1440px] mx-auto w-full">
       <div className="max-w-3xl mx-auto">
         <span>Hi, my name is</span>
         <h1 className="text-5xl md:text-7xl font-extrabold">MyNa Do.</h1>
