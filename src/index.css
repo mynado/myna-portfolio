@@ -1,17 +1,39 @@
-@use "./assets/styles/base.scss";
-@use "./assets/styles/fonts.scss";
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1d4ed8;
+  --color-secondary: #064e3b;
+  --color-lavender: #b7b0de;
+}
+
+@font-face {
+  font-family: "Raleway-Variable";
+  src: url("../fonts/Raleway-VariableFont_wght.ttf")
+    format("truetype-variations");
+  font-weight: 1 999;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway-Variable";
+  src: url("../fonts/Raleway-Italic-VariableFont_wght.ttf")
+    format("truetype-variations");
+  font-style: italic;
+  font-display: swap;
+}
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #b7b0de;
+  background-color: var(--color-lavender);
   margin: 0;
   font-family: "Raleway-Variable", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
     "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
 }
 
 html,

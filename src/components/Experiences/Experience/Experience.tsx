@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { ExperienceModel } from "../models/Experiences.model";
-import style from "./Experience.module.scss";
 
 export default function Experience(props: ExperienceModel) {
   const [showMoreInfo, setShowMoreInfo] = useState(false);
@@ -9,18 +8,20 @@ export default function Experience(props: ExperienceModel) {
     setShowMoreInfo(!showMoreInfo);
   };
   return (
-    <li className={style.experienceContainer}>
+    <li className="mb-4 w-full">
       <button
-        className={`${style.button} ${props.moreInfo && style.expandable}`}
+        className={`bg-none border-none text-start border-b-black border-b-2 flex justify-between items-center py-2 px-0 w-full ${
+          props.moreInfo ? "hover:cursor-pointer" : ""
+        }`}
         onClick={toggleMoreInfo}
       >
         <div>
-          <div className={style.titleContainer}>
-            <div className={style.title}>{props.title}</div>
+          <div className="font-semibold mb-2">
+            <div className="text-xl">{props.title}</div>
             {props.projectTitle && (
-              <div className={style.projectTitle}>{props.projectTitle}</div>
+              <div className="text-xl">{props.projectTitle}</div>
             )}
-            <div className={style.client}>{props.client}</div>
+            <div>{props.client}</div>
           </div>
           <div className="year-container">
             {`${props.startYear} - ${
@@ -29,14 +30,10 @@ export default function Experience(props: ExperienceModel) {
           </div>
           {props.degree && <span>{props.degree}</span>}
         </div>
-        {props.moreInfo && <div className={style.iconContainer}>+</div>}
+        {props.moreInfo && <div className="text-4xl">+</div>}
       </button>
       {showMoreInfo && (
-        <ul
-          className={`${style.moreInfoDropdown} ${
-            props.moreInfo && style.expanded
-          }`}
-        >
+        <ul>
           {props.moreInfo?.map((info) => (
             <li>{info}</li>
           ))}
