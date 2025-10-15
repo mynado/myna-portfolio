@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+# MyNa Do - Frontend Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the personal portfolio website for MyNa Do, an experienced Frontend Developer with a fullstack mindset based in Stockholm, Sweden.
 
-## Available Scripts
+The site is built to showcase projects, skills, and professional experience using a modern, efficient, and professionally configured technology stack.
 
-In the project directory, you can run:
+## 🚀 Tech Stack Highlights
 
-### `yarn start`
+This project is built using the latest industry-standard tools, demonstrating a strong command of modern frontend development:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+| Category        | Technology          | Version / Tooling                                                        |
+| :-------------- | :------------------ | :----------------------------------------------------------------------- |
+| **Framework**   | **React 19**        | Modern component-based architecture                                      |
+| **Language**    | **TypeScript 5.x**  | Strong typing for high code quality and maintainability                  |
+| **Bundler/Dev** | **Vite**            | Next-generation build tool for lightning-fast development                |
+| **Styling**     | **Tailwind CSS v4** | Utility-first CSS framework with CSS-first configuration                 |
+| **Testing**     | **Vitest**          | Fast, unit testing framework powered by Vite                             |
+| **Quality**     | **ESLint**          | Strict code quality enforcement, integrated with TypeScript and Tailwind |
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+## 💡 Architecture & Best Practices
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This section highlights key professional decisions made during development:
 
-### `yarn build`
+### 1. Visual Hierarchy
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The site utilizes a clear semantic and visual hierarchy enforced entirely by **Tailwind utility classes** applied directly to the components. This approach eliminates unused CSS and keeps the stylesheet clean.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **`<h1>` (Name)**: `text-5xl md:text-7xl font-extrabold`
+- **`<h2>` (Title/Sections)**: `text-2xl md:text-4xl font-semibold`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Content Management
 
-### `yarn eject`
+All static site content (text, project details, skills) is managed in a dedicated **TypeScript data file** (`src/data/portfolio-data.ts`). This ensures a clean **separation of concerns** between data and presentation.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 3. Tooling Configuration
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The entire environment is configured for efficiency:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **Styling:** Uses **Tailwind CSS v4** with a **CSS-first configuration** (no `tailwind.config.js`).
+- **Linting:** ESLint is configured with strict **`recommended-type-checked`** TypeScript rules, enforcing the highest level of code quality.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 📦 Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1.  **Clone the Repository:**
+    ```bash
+    git clone https://github.com/mynado/myna-portfolio.git
+    cd myna-portfolio
+    ```
+2.  **Install Dependencies:**
+    ```bash
+    yarn install
+    ```
+
+### Available Scripts
+
+| Command         | Description                                                            |
+| :-------------- | :--------------------------------------------------------------------- |
+| `yarn dev`      | Starts the development server in watch mode.                           |
+| `yarn build`    | Builds the project for production into the `dist` directory.           |
+| `yarn lint`     | **Code Quality Check:** Runs ESLint across all source files.           |
+| `yarn lint:fix` | **Auto-Fix:** Runs ESLint and automatically fixes most fixable issues. |
