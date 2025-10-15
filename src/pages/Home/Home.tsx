@@ -1,4 +1,4 @@
-export default function HomePage() {
+export default function Home() {
   return (
     <div className="max-w-[1440px] mx-auto w-full p-4">
       <div className="max-w-3xl mx-auto">
