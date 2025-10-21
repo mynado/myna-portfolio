@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="p-4">
+    <div className="p-4 max-w-5xl mx-auto">
       <h1 className="text-5xl md:text-7xl font-extrabold mb-8">About me</h1>
       <section id="about-me">
         <h2 className="text-2xl font-semibold mb-4">
@@ -21,7 +21,7 @@ export default function About() {
         </h2>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <h4 className="text-xl font-medium mb-2">Framework Agility</h4>
+            <h3 className="text-xl font-medium mb-2">Framework Agility</h3>
             <p className="text-gray-700">
               Deep expertise in leading frameworks like{" "}
               <strong>Angular, React, and SvelteKit</strong>. I have proven

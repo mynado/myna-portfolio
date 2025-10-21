@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="max-w-[1440px] mx-auto w-full p-4">
+    <div className="max-w-5xl mx-auto w-full p-4">
       <div className="max-w-3xl mx-auto">
         <span className="mb-4">Hi, my name is</span>
         <h1 className="text-5xl md:text-7xl font-extrabold mb-4">MyNa Do.</h1>

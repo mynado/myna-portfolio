@@ -3,7 +3,10 @@
 @theme {
   --color-primary: #1d4ed8;
   --color-secondary: #064e3b;
-  --color-lavender: #b7b0de;
+  --color-lavender-100: #dedbf0;
+  --color-lavender-200: #b7b0de;
+  --color-lavender-300: #7568c0;
+  --color-lavender-400: #453989;
 }
 
 @font-face {
@@ -27,7 +30,7 @@
 }
 
 body {
-  background-color: var(--color-lavender);
+  background-color: var(--color-lavender-200);
   margin: 0;
   font-family: "Raleway-Variable", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
     "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -45,13 +48,4 @@ body,
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-a {
-  color: #000;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
 }
