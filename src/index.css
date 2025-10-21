@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -9,22 +10,6 @@
   --color-lavender-400: #453989;
 }
 
-@font-face {
-  font-family: "Raleway-Variable";
-  src: url("../fonts/Raleway-VariableFont_wght.ttf")
-    format("truetype-variations");
-  font-weight: 1 999;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Raleway-Variable";
-  src: url("../fonts/Raleway-Italic-VariableFont_wght.ttf")
-    format("truetype-variations");
-  font-style: italic;
-  font-display: swap;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -32,8 +17,8 @@
 body {
   background-color: var(--color-lavender-200);
   margin: 0;
-  font-family: "Raleway-Variable", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Raleway", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
