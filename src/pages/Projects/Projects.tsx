@@ -6,7 +6,6 @@ export default function Projects() {
   return (
     <div className="p-4 max-w-5xl mx-auto">
       <h1 className="text-5xl md:text-7xl font-extrabold mb-8">Projects</h1>
-      <p className="mb-4">Selected projects</p>
       <section>
         <div className="flex flex-wrap gap-4 justify-center items-stretch mx-auto w-full">
           {projects.map((project) => (
