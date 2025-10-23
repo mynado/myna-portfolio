@@ -7,7 +7,7 @@ export default function About() {
           Crafting Performance-Driven User Experiences
         </h2>
         <p>
-          I am a <strong>Frontend Developer</strong> with a solid{" "}
+          I am a <strong>Frontend Engineer</strong> with a solid{" "}
           <strong>full-stack mindset</strong>, specializing in crafting
           accessible, high-performance user experiences. With over five years of
           experience in the full development lifecycle, I excel at translating
@@ -130,9 +130,11 @@ export default function About() {
         <p className="text-lg font-bold mt-8 rounded-lg p-4">
           I am currently immediately available for new opportunities in{" "}
           <strong>Stockholm, Sweden</strong>, and open to both{" "}
-          <strong>hybrid and fully remote roles</strong>. I am fluent in{" "}
-          <strong>Swedish, English, and Teochew</strong>. Let's connect and
-          build something exceptional together!
+          <strong>hybrid</strong> and <strong>fully remote roles</strong>. I am
+          fluent in <strong>Swedish</strong> and <strong>English</strong>, and{" "}
+          <strong>Teochew</strong> is my mother tongue, which I speak
+          conversationally. Let's connect and build something exceptional
+          together!
         </p>
       </section>
     </div>

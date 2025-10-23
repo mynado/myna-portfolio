@@ -5,7 +5,7 @@ export default function Home() {
         <span className="mb-4">Hi, my name is</span>
         <h1 className="text-5xl md:text-7xl font-extrabold mb-4">MyNa Do.</h1>
         <h2 className="text-2xl md:text-4xl font-semibold mb-4">
-          I'm a <strong>Frontend Developer</strong> with a fullstack mindset,
+          I'm a <strong>Frontend Engineer</strong> with a fullstack mindset,
           based in <strong>Stockholm, Sweden</strong>.
         </h2>
         <p>
