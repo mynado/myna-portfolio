@@ -1,5 +1,5 @@
+import { Card } from "components/index";
 import { projectsCardData } from "../../assets/data/projectData";
-import { Card } from "../../components";
 
 export default function Projects() {
   const projects = projectsCardData.sort((a, b) => (a.year > b.year ? -1 : 1));
@@ -17,9 +17,7 @@ export default function Projects() {
       <section>
         <div className="flex flex-wrap gap-8 justify-center items-stretch mx-auto w-full">
           {projects.map((project) => (
-            // <div className="lg:max-w-xs">
             <Card project={project}></Card>
-            // </div>
           ))}
         </div>
       </section>

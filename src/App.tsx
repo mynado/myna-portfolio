@@ -1,9 +1,8 @@
 import { Route, Routes } from "react-router-dom";
-import Footer from "./components/Footer/Footer";
-import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
+import { Footer, Navbar } from "./components";
 
 function App() {
   return (
