@@ -52,7 +52,7 @@ const projectsCardData: Project[] = [
     role: "Sole Contributor | Full-Cycle Developer & Designer",
     year: 2025,
     description:
-      "Designed, architected, and built this application as the sole contributor. It serves as a demonstration of best practices, combining a monorepo structure, Vite tooling, TypeScript, and a modern design system using Tailwind CSS v4.",
+      "A complete headless application. I was responsible for the entire UI/UX design and its engineering, utilizing a monorepo structure, Vite tooling, and a custom Tailwind CSS v4 design system for performance and scalability.",
     techStack: [
       { type: "language", name: "TypeScript" },
       { type: "framework", name: "React (v18)" },
@@ -72,7 +72,7 @@ const projectsCardData: Project[] = [
     role: "Sole Contributor | Full-Cycle Developer & Designer",
     year: 2024,
     description:
-      "Designed, architected, and fully developed this platform as the sole contributor. The project showcases end-to-end ownership, managing a monorepo (Sanity.io + React) to deliver complex, multilingual rich-text content.",
+      "This platform showcases end-to-end product ownership, covering UI/UX design and the robust engineering required to deliver complex, multilingual rich-text content. The architecture is built on a Sanity.io + React monorepo designed for dynamic i18n at scale.",
     techStack: [
       { type: "language", name: "TypeScript" },
       { type: "framework", name: "React (v18)" },
