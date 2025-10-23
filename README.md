@@ -1,6 +1,6 @@
-# MyNa Do - Frontend Developer Portfolio
+# MyNa Do - Frontend Engineer Portfolio
 
-This is the personal portfolio website for MyNa Do, an experienced Frontend Developer with a fullstack mindset based in Stockholm, Sweden.
+This is the personal portfolio website for MyNa Do, an experienced Frontend Engineer with a fullstack mindset based in Stockholm, Sweden.
 
 The site is built to showcase projects, skills, and professional experience using a modern, efficient, and professionally configured technology stack.
 
