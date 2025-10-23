@@ -1,6 +1,13 @@
+import {
+  ProjectThumbFolkets,
+  ProjectThumbnPonoYaMoya,
+  ProjectThumbOpenLetter,
+} from "..";
+
 export type Project = {
   title: string;
   subtitle?: string;
+  thumbnail: string;
   role: string;
   year: number;
   description: string;
@@ -23,6 +30,7 @@ export type TechType =
 const projectsCardData: Project[] = [
   {
     title: "Folkets Advokatbyrå",
+    thumbnail: ProjectThumbFolkets,
     role: "Frontend Developer | Collaborated with UI/UX Designer",
     year: 2022,
     description:
@@ -40,6 +48,7 @@ const projectsCardData: Project[] = [
   {
     title: "Pono ya Moya",
     subtitle: "Modern Headless Application",
+    thumbnail: ProjectThumbnPonoYaMoya,
     role: "Sole Contributor | Full-Cycle Developer & Designer",
     year: 2025,
     description:
@@ -59,6 +68,7 @@ const projectsCardData: Project[] = [
   {
     title: "Open Letter Platform",
     subtitle: "Dynamic Content & i18n",
+    thumbnail: ProjectThumbOpenLetter,
     role: "Sole Contributor | Full-Cycle Developer & Designer",
     year: 2024,
     description:

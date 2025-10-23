@@ -1,5 +1,4 @@
-import githubIcon from "../../assets/icons/github.svg";
-import linkedInIcon from "../../assets/icons/linkedin.svg";
+import { GitHubIcon, LinkedInIcon } from "assets/index";
 
 export default function Footer() {
   return (
@@ -7,14 +6,14 @@ export default function Footer() {
       <ul className="list-none p-0 m-0">
         <li className="flex justify-center gap-2 font-semibold">
           <a href="https://github.com/mynado" target="_blank" rel="noreferrer">
-            <img className="w-4" src={githubIcon} alt="github" />
+            <img className="w-4" src={GitHubIcon} alt="GitHub" />
           </a>
           <a
             href="https://www.linkedin.com/in/mynado/"
             target="_blank"
             rel="noreferrer"
           >
-            <img className="w-4" src={linkedInIcon} alt="linkedin" />
+            <img className="w-4" src={LinkedInIcon} alt="LinkedIn" />
           </a>
         </li>
         <li className="flex justify-center gap-2 font-semibold">

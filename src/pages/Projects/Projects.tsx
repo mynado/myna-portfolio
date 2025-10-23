@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div className="p-4 max-w-5xl mx-auto">
       <h1 className="text-5xl md:text-7xl font-extrabold mb-8">Projects</h1>
-      <p className="mb-8">
+      <p className="mb-12">
         Core Expertise: Backed by five years of professional experience in the
         industry, these selected independent and freelance projects demonstrate
         my capability in full-cycle product ownership and performance-driven
@@ -15,11 +15,11 @@ export default function Projects() {
         Prerendering (SSG).
       </p>
       <section>
-        <div className="flex flex-wrap gap-4 justify-center items-stretch mx-auto w-full">
+        <div className="flex flex-wrap gap-8 justify-center items-stretch mx-auto w-full">
           {projects.map((project) => (
-            <div className="lg:max-w-xs">
-              <Card project={project}></Card>
-            </div>
+            // <div className="lg:max-w-xs">
+            <Card project={project}></Card>
+            // </div>
           ))}
         </div>
       </section>

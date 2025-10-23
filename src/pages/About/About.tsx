@@ -58,7 +58,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="bg-orange-100 p-4 rounded-lg mt-10">
+        <div className="bg-orange-50 p-4 rounded-lg mt-10">
           <h2 className="text-2xl font-semibold mb-4">
             The Creative & Collaborative Mindset
           </h2>
@@ -85,7 +85,7 @@ export default function About() {
             </li>
           </ul>
         </div>
-        <p className="text-lg font-bold mt-8 bg-lavender-100 rounded-lg p-4">
+        <p className="text-lg font-bold mt-8 rounded-lg p-4">
           I am currently immediately available for new opportunities in
           Stockholm, Sweden. I am fluent in Swedish, English, and Teochew. Let's
           connect and build something exceptional together!
