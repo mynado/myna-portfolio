@@ -25,9 +25,9 @@ const Card: React.FC<{ project: Project }> = ({ project }) => {
       <div>
         <div className="p-8">
           <header className="mb-4">
-            <h3 className="text-2xl font-bold text-gray-900 mb-1">
+            <h2 className="text-2xl font-bold text-gray-900 mb-1">
               {project.title}
-            </h3>
+            </h2>
             {project.subtitle && (
               <span className="text-sm text-gray-700">{project.subtitle}</span>
             )}
