@@ -18,8 +18,10 @@ const Card: React.FC<{ project: Project }> = ({ project }) => {
     <article className="flex flex-col sm:flex-row justify-between bg-lavender-100 shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300 h-full">
       <img
         src={project.thumbnail}
-        alt=""
+        alt="Screenshot of website's landing page"
         className="object-cover w-full sm:w-[40%]"
+        width={396}
+        height={373}
       />
       <div>
         <div className="p-8">
