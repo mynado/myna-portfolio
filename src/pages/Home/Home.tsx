@@ -11,10 +11,8 @@ export default function Home() {
         <p>
           My <strong>5+ years of experience</strong> were gained at{" "}
           <strong>BIMobject</strong>, where I specialized in scaling enterprise
-          applications and contributing to the
-          <strong>
-            implementation of frontend architectural solutions
-          </strong>{" "}
+          applications and contributing to the{" "}
+          <strong>implementation of frontend architectural solutions</strong>{" "}
           for long-term maintainability. I am proficient across{" "}
           <strong>Angular, React, and SvelteKit</strong>, and{" "}
           <strong>I'm immediately available</strong> for new opportunities.
