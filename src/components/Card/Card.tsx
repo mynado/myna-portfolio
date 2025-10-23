@@ -1,6 +1,5 @@
 import React from "react";
 import { Project, TechType } from "../../assets/data/projectData";
-import { ProjectThumbnPonoYaMoya } from "assets/index";
 
 const Card: React.FC<{ project: Project }> = ({ project }) => {
   const bagdeStyles: Record<TechType, string> = {
