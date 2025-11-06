@@ -136,7 +136,7 @@ export default function About() {
           <strong>hybrid</strong> and <strong>fully remote roles</strong>. I am
           fluent in <strong>Swedish</strong> and <strong>English</strong>.{" "}
           <strong>Teochew</strong> is my mother tongue, which I speak
-          conversationally Let's connect and build something exceptional
+          conversationally. Let's connect and build something exceptional
           together!
         </p>
       </section>
