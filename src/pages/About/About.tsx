@@ -7,12 +7,15 @@ export default function About() {
           Crafting Performance-Driven User Experiences
         </h2>
         <p>
-          I am a <strong>Frontend Engineer</strong> with a solid{" "}
+          I am a <strong>Frontend Engineer</strong> with a{" "}
           <strong>full-stack mindset</strong>, specializing in crafting
-          accessible, high-performance user experiences. With over five years of
-          experience in the full development lifecycle, I excel at translating
-          complex requirements into{" "}
-          <strong>robust, scalable frontend architecture</strong>.
+          accessible, high-performance user experiences. My work is uniquely
+          shaped by my background as a <strong>Multidisciplinary Artist</strong>
+          , allowing me to excel at translating complex requirements into{" "}
+          <strong>robust, scalable frontend architecture</strong> with
+          exceptional <strong>UI/UX design fidelity</strong>. With over five
+          years of experience in the full development lifecycle, I thrive on
+          delivering beautiful yet maintainable applications.
         </p>
         <div className="bg-orange-50 p-4 rounded-lg mt-10 flex flex-col gap-4">
           <h2 className="text-2xl font-semibold">
@@ -131,9 +134,9 @@ export default function About() {
           I am currently immediately available for new opportunities in{" "}
           <strong>Stockholm, Sweden</strong>, and open to both{" "}
           <strong>hybrid</strong> and <strong>fully remote roles</strong>. I am
-          fluent in <strong>Swedish</strong> and <strong>English</strong>, and{" "}
+          fluent in <strong>Swedish</strong> and <strong>English</strong>.{" "}
           <strong>Teochew</strong> is my mother tongue, which I speak
-          conversationally. Let's connect and build something exceptional
+          conversationally Let's connect and build something exceptional
           together!
         </p>
       </section>
