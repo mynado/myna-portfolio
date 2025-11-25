@@ -1,4 +1,5 @@
 // ICONS
+export { default as ExternalUrl } from "assets/icons/external-link.svg";
 export { default as GitHubIcon } from "assets/icons/github.svg";
 export { default as LinkedInIcon } from "assets/icons/linkedin.svg";
 
