@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="p-4 max-w-5xl mx-auto">
-      <h1 className="text-5xl md:text-7xl font-extrabold mb-8">About me</h1>
+      <h1 className="text-5xl md:text-7xl font-extrabold mb-8">About</h1>
       <section id="about-me">
         <h2 className="text-2xl font-semibold mb-4">
           Crafting Performance-Driven User Experiences
