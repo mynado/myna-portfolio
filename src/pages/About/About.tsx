@@ -65,9 +65,10 @@ export default function About() {
               <h3 className="text-xl font-medium mb-2">Framework Agility</h3>
               <p className="text-gray-700">
                 Deep expertise in leading frameworks like{" "}
-                <strong>Angular, React, and SvelteKit</strong>. I leverage my
-                architectural understanding to always choose the right tool for
-                the job.
+                <strong>Angular, React, Next.js, and SvelteKit</strong>. I
+                leverage my architectural understanding to always choose the
+                right tool for the job, from SSG and SSR to client-side
+                rendering.
               </p>
             </div>
             <div>
