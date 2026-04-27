@@ -7,3 +7,4 @@ export { default as LinkedInIcon } from "assets/icons/linkedin.svg";
 export { default as ProjectThumbFolkets } from "assets/images/project-thumb-folkets.png";
 export { default as ProjectThumbOpenLetter } from "assets/images/project-thumb-openletter.png";
 export { default as ProjectThumbnPonoYaMoya } from "assets/images/project-thumb-ponoyamoya.png";
+export { default as ProjectThumbIBecomeMore } from "assets/images/project-thumb-ibecomemore.webp";

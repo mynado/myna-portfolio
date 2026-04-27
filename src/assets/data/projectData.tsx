@@ -2,6 +2,7 @@ import {
   ProjectThumbFolkets,
   ProjectThumbnPonoYaMoya,
   ProjectThumbOpenLetter,
+  ProjectThumbIBecomeMore,
 } from "..";
 
 export type Project = {
@@ -36,9 +37,9 @@ const projectsCardData: Project[] = [
     description:
       "Engineered a highly performant, multilingual static application. I was responsible for the technical implementation and translating the UI/UX designer's vision into clean, accessible code, leveraging Prerendering (SSG) for instantaneous loading.",
     techStack: [
-      { type: "framework", name: "React (v18)" },
+      { type: "framework", name: "React" },
       { type: "architecture", name: "Prerendering (SSG)" },
-      { type: "content", name: "Wordpress Headless CMS" },
+      { type: "content", name: "Wordpress (Headless CMS)" },
       { type: "functionality", name: "i18n (Multilingual)" },
       { type: "data", name: "Axios" },
     ],
@@ -55,11 +56,11 @@ const projectsCardData: Project[] = [
       "A complete headless application built with Next.js. I was responsible for the entire UI/UX design and its engineering, leveraging Next.js for server-side rendering and optimal performance, combined with Sanity.io CMS integration and a custom Tailwind CSS v4 design system.",
     techStack: [
       { type: "language", name: "TypeScript" },
-      { type: "framework", name: "Next.js (v16)" },
-      { type: "framework", name: "React (v19)" },
+      { type: "framework", name: "Next.js" },
+      { type: "framework", name: "React" },
       { type: "architecture", name: "Server-Side Rendering (SSR)" },
-      { type: "content", name: "Sanity.io Headless CMS" },
-      { type: "styling", name: "Tailwind CSS v4" },
+      { type: "content", name: "Sanity.io" },
+      { type: "styling", name: "Tailwind CSS" },
       { type: "contentStructure", name: "Portable Text" },
       { type: "functionality", name: "EmailJS" },
     ],
@@ -76,14 +77,35 @@ const projectsCardData: Project[] = [
       "This platform showcases end-to-end product ownership, covering UI/UX design and the robust engineering required to deliver complex, multilingual rich-text content. The architecture is built on a Sanity.io + React monorepo designed for dynamic i18n at scale.",
     techStack: [
       { type: "language", name: "TypeScript" },
-      { type: "framework", name: "React (v18)" },
-      { type: "architecture", name: "Monorepo" },
-      { type: "content", name: "Sanity.io Headless CMS" },
+      { type: "framework", name: "React" },
+      { type: "architecture", name: "Monorepo Architecture" },
+      { type: "content", name: "Sanity.io" },
       { type: "functionality", name: "i18n (Multilingual)" },
       { type: "contentStructure", name: "Portable Text" },
     ],
     id: "openletter",
     externalUrl: "https://sthlmculture4pal.netlify.app",
+  },
+  {
+    title: "I Become More With You",
+    subtitle: "Headless Platform & Monorepo Architecture",
+    thumbnail: ProjectThumbIBecomeMore,
+    role: "Sole Contributor | Full-Cycle Developer & Designer",
+    year: 2026,
+    description:
+      "A content-driven platform for a documentary film, built as a monorepo combining a Next.js frontend and a Sanity Studio CMS. Designed for flexible editorial workflows and long-term scalability, with a focus on performance and maintainable architecture.",
+    techStack: [
+      { type: "language", name: "TypeScript" },
+      { type: "framework", name: "Next.js" },
+      { type: "framework", name: "React" },
+      { type: "architecture", name: "Monorepo Architecture" },
+      { type: "content", name: "Sanity.io" },
+      { type: "styling", name: "Tailwind CSS" },
+      { type: "build", name: "pnpm Workspaces" },
+      { type: "functionality", name: "i18n (next-intl)" },
+    ],
+    id: "ibecomemore",
+    externalUrl: "https://ibecomemore.mahoyo.com",
   },
 ];
 
