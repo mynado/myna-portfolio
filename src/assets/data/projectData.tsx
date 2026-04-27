@@ -53,7 +53,7 @@ const projectsCardData: Project[] = [
     role: "Sole Contributor | Full-Cycle Developer & Designer",
     year: 2025,
     description:
-      "A complete headless application built with Next.js. I was responsible for the entire UI/UX design and its engineering, leveraging Next.js for server-side rendering and optimal performance, combined with Sanity.io CMS integration and a custom Tailwind CSS v4 design system.",
+      "A complete headless application built with Next.js. I was responsible for the entire UI/UX design and its engineering, leveraging Next.js for server-side rendering and optimal performance, combined with Sanity.io CMS integration and a custom Tailwind CSS design system.",
     techStack: [
       { type: "language", name: "TypeScript" },
       { type: "framework", name: "Next.js" },
